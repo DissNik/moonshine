@@ -14,6 +14,7 @@
     @if(!$withoutIcon && $icon)
         <x-moonshine::icon
             :icon="$icon"
+            class="flex"
         />
     @endif
 
